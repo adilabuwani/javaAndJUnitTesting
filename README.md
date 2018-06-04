@@ -3,17 +3,6 @@ This assignment assesses basic knowledge of Java and JUnit, which will need for 
 
 # To complete the assignment you must complete the following tasks: #
 
-1. Clone your individual GitHub repository in your local workspace. This is the same repository
-that you used for the previous assignment (i.e.,
-https://github.com/qc-se-spring2018/370Spring18<firstinitiallastname>.git ).
-2. Download the archive Assignment3.zip
-3. Unzip the archive in the root directory of the repository, which will create a directory called
-Assignment3 and several subdirectories. Hereafter, we will refer to the directory
-Assignment3 in your local repo as <dir> .
-4. Directory <dir>/src contains, in a suitable directory, Java interface
-edu.qc.seclass.MyCustomStringInterface . It also contains exception
-edu.qc.seclass.MyIndexOutOfBoundsException , which is used by the interface.
-
 ### FIRST TASK ###
 5. Your first task is to develop a Java class called MyCustomString that suitably implements the
 MyCustomStringInterface that we provided. (The semantics of the methods in the
