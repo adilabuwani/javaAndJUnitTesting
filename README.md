@@ -23,13 +23,13 @@ not,its provided hear as well.
      * Returns the current string. If the string is null, it should return null.
      * @return Current string
      */
-    String getString();
+     ### String getString(); ###
 
     /**
      * Sets the value of the current string
      * @param string The value to be set
      */
-    void setString(String string);
+     ### void setString(String string); ###
 
     /**
      * Returns the number of numbers in the current string, where a number is defined as a
@@ -42,7 +42,7 @@ not,its provided hear as well.
      * @return Number of numbers in the current string
      * @throws NullPointerException If the current string is null
      */
-    int countNumbers();
+    ### int countNumbers(); ###
     /**
      * Returns a string that consists of all and only the characters in positions n, 2n, 3n, and
      * so on in the current string, starting either from the beginning or from the end of the
@@ -70,7 +70,7 @@ not,its provided hear as well.
      * @throws NullPointerException If the current string is null and "n" is greater than zero
      *
      */
-    String getEveryNthCharacterFromBeginningOrEnd(int n, boolean startFromEnd);
+    ### String getEveryNthCharacterFromBeginningOrEnd(int n, boolean startFromEnd); ###
     /**
      * Replace the individual digits in the current string, between startPosition and endPosition
      * (included), with the corresponding English names of those digits, with the first letter
