@@ -64,10 +64,7 @@ not,its provided hear as well.
      * the first one or the last one in the string, is considered to be in Position 1.
      *
      * @param n Determines the positions of the characters to be returned
-     * @param startFromEnd Determines whether to start counting from the end or from the
-     *                     beginning when identifying the characters in position n, 2n, 3n, and so
-     *                     on. Please note that the characters are always returned in the order in
-     *                     which they appear in the string.
+     * @param startFromEnd Determines whether to start counting from the end or from the beginning when identifying the characters in position n, 2n, 3n, and so on.
      * @return String made of characters at positions n, 2n, and so on in the current string
      * @throws IllegalArgumentException If "n" less than or equal to zero
      * @throws NullPointerException If the current string is null and "n" is greater than zero
@@ -88,13 +85,12 @@ not,its provided hear as well.
      * @param endPosition   Position of the last character to consider
      * 
      * @throws IllegalArgumentException    If "startPosition" > "endPosition"
-     * @throws MyIndexOutOfBoundsException If "startPosition" <= "endPosition", but either
-     *                                     "startPosition" or "endPosition" are out of
-     *                                     bounds (i.e., either less than 1 or greater than the
-     *                                     length of the string)
+     * @throws MyIndexOutOfBoundsException If "startPosition" <= "endPosition", but either "startPosition" or "endPosition" are out of
+     *bounds (i.e., either less than 1 or greater than the
+     *length of the string)
      * @throws NullPointerException        If "startPosition" <= "endPosition", "startPosition" and
-     *                                     "endPosition" are greater than 0, and the current
-     *                                     string is null
+     *"endPosition" are greater than 0, and the current
+     *string is null
      */
     void convertDigitsToNamesInSubstring(int startPosition, int endPosition);
 
